@@ -1,12 +1,12 @@
 class stack:
     def __init__(self,list):
-        self._list = listt
+        self._list = list
     def push(self,n):
         self._list.append(n)
     def pop(self):
         return self._list.pop()
     def peek(self):
-        return self._list[-1]
+        return self._list[len(-1)]
 list1=stack([1,2,3,4,5])
 while True:
    starting=input("enter 1 to start the program or 0 to exit the program:")
