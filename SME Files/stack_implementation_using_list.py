@@ -1,8 +1,6 @@
 class stack:
     def __init__(self,list):
-        self._list = list
-    def create_list(self,list):
-        self._list=list
+        self._list = listt
     def push(self,n):
         self._list.append(n)
     def pop(self):
